@@ -47,6 +47,7 @@ export default function CameraPage() {
         ref={camRef}>
 
         <View style={{ flex: 1, flexDirection: "row", justifyContent: "space-between", margin: 20 }}>
+        //Gallery Button
           <TouchableOpacity
             style={{
               alignSelf: 'flex-end',
@@ -60,6 +61,7 @@ export default function CameraPage() {
               style={{ color: "#fff", fontSize: 40 }}
             />
           </TouchableOpacity>
+          //Take Camera Button
           <TouchableOpacity
             style={{
               alignSelf: 'flex-end',
@@ -73,6 +75,7 @@ export default function CameraPage() {
               style={{ color: "#fff", fontSize: 40 }}
             />
           </TouchableOpacity>
+          //Swap Camera Button
           <TouchableOpacity
             style={{
               alignSelf: 'flex-end',
